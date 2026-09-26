@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>César está de cumpleaños 🍺 41 años</title>
+<meta name="description" content="Invitación al cumpleaños número 41 de Julio César Pérez Coronel">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= INTRO ================= -->
+<div id="intro" class="intro">
+  <p id="intro-linea1" class="intro-texto">Una celebración está por comenzar...</p>
+  <h1 id="intro-linea2" class="intro-texto oculto">CÉSAR ESTÁ DE CUMPLEAÑOS</h1>
+  <h2 id="intro-linea3" class="intro-texto oculto">JULIO CÉSAR PÉREZ CORONEL</h2>
+  <div id="intro-linea4" class="intro-numero oculto">41 <span>AÑOS</span></div>
+  <button id="btn-musica-intro" class="btn btn-primario oculto">🎵 REPRODUCIR MÚSICA</button>
+</div>
+
+<!-- ================= PORTADA ================= -->
+<header id="portada" class="seccion hero">
+  <div class="burbujas" aria-hidden="true"></div>
+  <div class="hero-contenido">
+    <p class="hero-pre">🍺 CÉSAR ESTÁ DE CUMPLEAÑOS</p>
+    <h1 class="hero-nombre">JULIO CÉSAR<br>PÉREZ CORONEL</h1>
+    <div class="hero-numero">41<span>AÑOS</span></div>
+    <div class="hero-foto-wrap">
+      <img src="assets/img/foto1.jpg" alt="Julio César" class="hero-foto">
+      <img src="assets/img/lata.png" alt="" class="hero-lata" aria-hidden="true" onerror="this.style.display='none'">
+    </div>
+    <button id="btn-musica" class="btn btn-primario">🎵 REPRODUCIR MÚSICA</button>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">↓</div>
+</header>
+
+<!-- ================= INVITACIÓN ================= -->
+<section id="invitacion" class="seccion">
+  <h2 class="titulo reveal">¡ESTÁS INVITADO!</h2>
+  <p class="frase-principal" id="frase-principal">
+    <span class="palabra">41</span> <span class="palabra">años,</span> <span class="palabra">muchas</span> <span class="palabra">historias</span> <span class="palabra">y</span> <span class="palabra">una</span> <span class="palabra">sola</span> <span class="palabra">excusa</span> <span class="palabra">para</span> <span class="palabra">brindar:</span> <span class="palabra">celebrar</span> <span class="palabra">la</span> <span class="palabra">vida</span> <span class="palabra">junto</span> <span class="palabra">a</span> <span class="palabra">quienes</span> <span class="palabra">hacen</span> <span class="palabra">que</span> <span class="palabra">valga</span> <span class="palabra">la</span> <span class="palabra">pena.</span>
+  </p>
+  <p class="texto reveal">Hay momentos que merecen celebrarse, y personas que hacen que cada momento sea especial. Julio César quiere compartir contigo una fecha muy especial: sus 41 años.</p>
+  <p class="texto reveal">¡Prepárate para celebrar, brindar, bailar y crear nuevos recuerdos!</p>
+</section>
+
+<!-- ================= MOMENTOS DE CÉSAR ================= -->
+<section id="momentos" class="seccion seccion-oscura">
+  <h2 class="titulo titulo-claro reveal">📸 MOMENTOS DE CÉSAR</h2>
+  <div class="carrusel" id="carrusel">
+    <div class="carrusel-track" id="carrusel-track">
+      <div class="carrusel-slide"><img src="assets/img/foto1.jpg" alt="César - foto 1" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto2.jpg" alt="César - foto 2" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto3.jpg" alt="César - foto 3" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto4.jpg" alt="César - foto 4" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto5.jpg" alt="César - foto 5" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto6.jpg" alt="César - foto 6" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto7.jpg" alt="César - foto 7" loading="lazy"></div>
+      <div class="carrusel-slide"><img src="assets/img/foto8.jpg" alt="César - foto 8" loading="lazy"></div>
+    </div>
+    <button class="carrusel-btn carrusel-prev" id="carrusel-prev" aria-label="Anterior">‹</button>
+    <button class="carrusel-btn carrusel-next" id="carrusel-next" aria-label="Siguiente">›</button>
+    <div class="carrusel-dots" id="carrusel-dots"></div>
+  </div>
+</section>
+
+<!-- ================= CELEBRACIÓN ================= -->
+<section id="celebracion" class="seccion celebracion">
+  <div class="celebracion-contenido reveal">
+    <h2 class="titulo titulo-claro">🥂 A CELEBRAR SE HA DICHO</h2>
+    <p class="texto texto-claro">Botellas frías, buena música y las mejores personas. Así se celebran los 41 de César.</p>
+  </div>
+</section>
+
+<!-- ================= DATOS DEL EVENTO ================= -->
+<section id="datos" class="seccion">
+  <h2 class="titulo reveal">DETALLES DE LA CELEBRACIÓN</h2>
+  <div class="tarjetas">
+    <div class="tarjeta reveal">
+      <span class="tarjeta-icono">📅</span>
+      <h3>Fecha</h3>
+      <p>Viernes 9 de octubre de 2026</p>
+    </div>
+    <div class="tarjeta reveal">
+      <span class="tarjeta-icono">🕚</span>
+      <h3>Hora</h3>
+      <p>11:00 a. m. – 10:00 p. m.</p>
+    </div>
+    <div class="tarjeta reveal">
+      <span class="tarjeta-icono">📍</span>
+      <h3>Lugar</h3>
+      <p>Local Monumental</p>
+      <a href="https://maps.app.goo.gl/QLLUrBNjexkMxuFx7?g_st=iwb" target="_blank" rel="noopener" class="btn btn-secundario">📍 CÓMO LLEGAR</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONFIRMACIÓN ================= -->
+<section id="confirmacion" class="seccion seccion-oscura">
+  <h2 class="titulo titulo-claro reveal">🍺 ¿NOS ACOMPAÑAS?</h2>
+  <p class="texto texto-claro reveal">Queremos saber si podremos contar contigo para celebrar junto a César sus 41 años.</p>
+
+  <form id="form-rsvp" class="formulario reveal">
+    <label for="rsvp-familia">Nombre de la familia</label>
+    <input type="text" id="rsvp-familia" maxlength="30" placeholder="Escribe el nombre de tu familia" required>
+
+    <p class="formulario-pregunta">¿Confirman su asistencia?</p>
+    <div class="formulario-botones">
+      <button type="button" class="btn btn-confirmar" data-confirma="si">✅ SÍ, CONFIRMAMOS</button>
+      <button type="button" class="btn btn-declinar" data-confirma="no">❌ NO PODREMOS ASISTIR</button>
+    </div>
+  </form>
+
+  <div id="rsvp-respuesta" class="respuesta oculto"></div>
+</section>
+
+<!-- ================= MURO DE RECUERDOS ================= -->
+<section id="muro" class="seccion">
+  <h2 class="titulo reveal">📸 DEJA UN RECUERDO PARA CÉSAR</h2>
+  <p class="texto reveal"><strong>"La fiesta termina, pero los recuerdos quedan."</strong></p>
+  <p class="texto reveal">Tómate una foto, escribe un mensaje para César y forma parte de su álbum de 41 años.</p>
+
+  <form id="form-recuerdo" class="formulario reveal">
+    <label for="recuerdo-familia">Familia</label>
+    <input type="text" id="recuerdo-familia" maxlength="30" placeholder="Familia __________" required>
+
+    <label for="recuerdo-mensaje">Mensaje para César</label>
+    <textarea id="recuerdo-mensaje" maxlength="250" rows="3" placeholder="¡Feliz cumpleaños, César! Que sean muchos años más." required></textarea>
+    <span class="contador" id="contador-mensaje">0 / 250</span>
+
+    <label for="recuerdo-foto" class="btn btn-secundario btn-foto">📷 TOMAR MI FOTO</label>
+    <input type="file" id="recuerdo-foto" accept="image/*" required hidden>
+    <img id="recuerdo-preview" class="recuerdo-preview oculto" alt="Vista previa">
+
+    <button type="submit" class="btn btn-primario">🍺 DEJAR MI RECUERDO</button>
+  </form>
+
+  <div id="recuerdo-respuesta" class="respuesta oculto"></div>
+
+  <div class="muro-grid" id="muro-grid"></div>
+</section>
+
+<!-- ================= UBICACIÓN ================= -->
+<section id="ubicacion" class="seccion seccion-oscura">
+  <h2 class="titulo titulo-claro reveal">📍 UBICACIÓN</h2>
+  <p class="texto texto-claro reveal">Local Monumental</p>
+  <a href="https://maps.app.goo.gl/QLLUrBNjexkMxuFx7?g_st=iwb" target="_blank" rel="noopener" class="btn btn-primario reveal">📍 CÓMO LLEGAR</a>
+</section>
+
+<!-- ================= DESPEDIDA ================= -->
+<footer id="despedida" class="seccion despedida">
+  <div class="reveal">
+    <h2 class="titulo titulo-claro">🍺 NOS VEMOS EN LA CELEBRACIÓN</h2>
+    <p class="despedida-frase">¡41 AÑOS SE CELEBRAN UNA SOLA VEZ!</p>
+    <p class="texto texto-claro">Julio César Pérez Coronel</p>
+    <p class="texto texto-claro">Viernes 9 de octubre de 2026 · 11:00 a. m. – 10:00 p. m.</p>
+    <div class="despedida-botones">
+      <a href="https://maps.app.goo.gl/QLLUrBNjexkMxuFx7?g_st=iwb" target="_blank" rel="noopener" class="btn btn-secundario">📍 CÓMO LLEGAR</a>
+      <button id="btn-musica-final" class="btn btn-secundario">🎵 VOLVER A ESCUCHAR</button>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= LIGHTBOX ================= -->
+<div id="lightbox" class="lightbox oculto">
+  <button id="lightbox-cerrar" class="lightbox-cerrar" aria-label="Cerrar">✕</button>
+  <img id="lightbox-img" src="" alt="Foto ampliada">
+</div>
+
+<!-- Contenedor de confeti -->
+<div id="confeti-container" class="confeti-container" aria-hidden="true"></div>
+
+<audio id="audio" src="assets/music/mix-que-viva-el-santo.mp3" preload="none" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
